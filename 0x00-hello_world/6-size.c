@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main- prints the size of different data types
+ * main - prints the size of different data types based
+ *        computer it is run on (x32/ x64)
  *
  *return: Always 0
  */
