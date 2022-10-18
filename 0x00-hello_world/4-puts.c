@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * Main - prints \programming is like building a multilingual 
- *        puzzle
+ * main - prints \programming is like building a multilingual 
+ * puzzle then a new line
  * 
  * return - Always 0
  */       
