@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints \programming is like building a multilingual 
+ * main - this is the main function
+ * description - prints programming is like building a multilingual 
  * puzzle then a new line
- * 
  * return - Always 0
  */       
 int main(void)
