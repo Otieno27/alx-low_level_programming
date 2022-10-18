@@ -1,4 +1,9 @@
 #include <unistd.h>
+/**
+ * main - This is a description of the write function
+ *
+ * return - 1
+ * */
 int main(void)
 {
 	write(2,
