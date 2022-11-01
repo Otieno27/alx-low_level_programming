@@ -4,7 +4,7 @@
  * print_chessboard - prints a chessboard
  * @a: chessboard to be printed
  */
-void print_chessboard(char (a)[8])
+void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
@@ -15,4 +15,4 @@ void print_chessboard(char (a)[8])
 
 		_putchar('\n');
 	}
-}
+} 
