@@ -22,7 +22,7 @@ a = atoi(argv[1]);
 b = atoi(argv[2]);
 prod = a * b;
 
-printf("%d\n", mul);
+printf("%d\n", prod);
 
 return (0);
 }
