@@ -3,8 +3,7 @@
 #include "main.h"
 
 /**
- * main - prints the addition of positive numbers, 
- * 	followed by a new line
+ * main - prints the addition of positive numbers, followed by a new line
  * @argc: counts argument
  * @argv: argument
  *
