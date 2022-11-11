@@ -9,7 +9,7 @@
  * Return: nmeb = 0, size = 0 or function fails - NULL
  * Otherwise, a pointer to the allocated memory
  */
-void *_calloc(unsigned int nmeb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *mem;
 	unsigned int i;
@@ -17,13 +17,13 @@ void *_calloc(unsigned int nmeb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	mem = malloc(size * nmemb);
+	mem = malloc(nmemb * size);
 
 	if (mem == NULL)
 		return (NULL);
 
 
-	for (i = 0; i < (size * nmemb); i++)
+	for (i = 0; i < nmemb * size; i++)
 		mem[i] = 0;
 
 	return (mem);
