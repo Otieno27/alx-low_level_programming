@@ -2,6 +2,7 @@
 
 /**
  * times_table - Prints the 9 times table, starting with 0
+ * @num: integer to be inputed
  */
 void times_table(void)
 {
